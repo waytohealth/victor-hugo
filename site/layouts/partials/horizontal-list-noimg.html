@@ -1,0 +1,11 @@
+<div class="container mx-auto px-4">
+<div class="md:flex mt-10 mb-10">
+    <div class="mt-4 md:mt-0 md:ml-6">
+        <div class="uppercase tracking-wide text-sm text-gray-900 font-bold text-right">{{ .Date.Format "Jan 2, 2006" }}</div>
+            <a href="{{ .Permalink }}" class="block mt-1 text-lg leading-tight font-semibold text-indigo-600 hover:underline">{{ .Params.title }}</a>
+            <p>{{.ReadingTime}} mins</p>
+        <p class="mt-2 text-gray-600">{{ .Params.summary }}</p>
+        <p> test</p>
+    </div>
+</div>
+</div>

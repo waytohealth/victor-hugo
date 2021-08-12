@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+<div class="container mx-auto px-4">
+<section class="py-12 px-4 pt-16 pb-16 ">
+    <div class="flex flex-row flex-wrap items-center text-center lg:text-left">
+        <!-- <div class="lg:w-1/2 px-2"><img class="rounded" src="{{ .Params.image }}" alt="">
+        </div> -->
+        <div class="lg:full px-2">
+            <h2 class="text-4xl px-4 mb-4 leading-tight font-heading sm:6xl">{{ .Params.title }}</h2>
+            <div class="p-4 mb-4">
+                <h3 class="text-xl mb-2 font-heading sm:2xl">{{ .Date.Format "Jan 2, 2006" }}</h3>
+                <p class=" leading-relaxed">{{ .Params.summary}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-12 px-4 pt-16 pb-16">
+        <div class="max-w-5xl mx-auto markdown">
+           {{ .Content }}
+        </div>
+</section>
+</div>
+{{ partial "footer" . }}
