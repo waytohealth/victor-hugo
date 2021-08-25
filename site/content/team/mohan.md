@@ -11,7 +11,7 @@ group: Leadership
 publications:
   listing:
     - title: Key Insights on Launching a Nudge Unit within a Health Care System
-      URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0342
+      URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.19.0668
     - title: Remote Monitoring of Patients with Covid-19 - Design, implementation, and outcomes of the first 3,000 patients in COVID Watch
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0342
     - title: Association between behavioral phenotypes and response to a physical activity intervention using gamification and social incentives - Secondary analysis of the STEP UP randomized clinical trial
