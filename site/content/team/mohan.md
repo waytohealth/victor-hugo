@@ -18,4 +18,6 @@ publications:
       URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239288 
     - title: How Penn Medicine Reimagined Breast Reconstruction, Shifting the Balance of Postoperative Care from Clinic to Home
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0528?query=CON&cid=DM111575_Catalyst_Non_Subscriber&bid=390918008
+    - title: Operationalizing Equity - A Rapid-Cycle Innovation Approach to Covid-19 Vaccination in Black Neighborhoods
+      URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.21.0094
 ---
