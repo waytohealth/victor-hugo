@@ -71,8 +71,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string", required: true} #title of the blog post
+      - {label: "Title", name: "title", widget: "string", required: true} #title of the release note
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "string", required: true} # summary of the post
-      - {label: "Content", name: "body", widget: "markdown", required: true} #body of the case study
-      - {label: "Label", name: "label", widget: "string", required: true} #Label shown next to the post
+      - {label: "Summary", name: "summary", widget: "string", required: true} # summary of the release
+      - {label: "Content", name: "body", widget: "markdown", required: true} #body of the release note
