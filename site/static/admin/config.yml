@@ -65,3 +65,13 @@ collections:
       - {label: "Authors", name: "authors", widget: "string", required: true} # publication authors
       - {label: "Source", name: "externallink", widget: "string", required: true} #publication URL
       - {label: "Journal Abbr", name: "journal", widget: "string", required: true} #Abbreviated Journal name in citation
+    - name: "releasenotes" # Used in routes, e.g., /admin/collections/blog
+    folder: "site/content/releasenotes" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g. title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string", required: true} #title of the blog post
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
+      - {label: "Summary", name: "summary", widget: "string", required: true} # summary of the post
+      - {label: "Content", name: "content", widget: "markdown", required: true} #body of the case study
+      - {label: "Label", name: "label", widget: "string", required: true} #Label shown next to the post
