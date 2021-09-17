@@ -2,7 +2,7 @@
 title: Summer Wrap Up
 date: 2021-09-16
 summary: >-
-  It was a busy summer! We wrapped up a successful upgrade of our embedded view within Epic and made great strides in handling remote monitoring at scale. On the operations front, we successfully launched two studies at Penn Medicine focused on improving patient experience and outcomes among cancer patients. We also launched versions of Heart Safe Motherhood at other local Philadelphia hospitals.
+  It was a busy summer! We wrapped up a successful upgrade of our embedded view within Epic and made great strides in handling remote monitoring at scale. On the operations front, we launched two studies at Penn Medicine focused on improving patient experience and outcomes among cancer patients. We also launched versions of Heart Safe Motherhood at other local Philadelphia hospitals.
 ---
 
 ## Product updates from August 2021
