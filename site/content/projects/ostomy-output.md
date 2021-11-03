@@ -18,6 +18,10 @@ summary: >
 features:
   - feature: 'Two-way texting'  
   - feature: 'EHR integration'
+results: 
+  - result: Reduced post-op visits
+  - result: Increased patient satisfaction
+  - result: Reduced staff burnout
 condition: Surgery
 intervention: Two-way Texting 
 outcome: Reduced re-admissions and increased patient satisfaction

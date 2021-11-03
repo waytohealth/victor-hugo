@@ -17,7 +17,7 @@ summary: >
   Blood pressure monitoring for pregnant women with a diagnosis of pre-eclampsia.
   They will be recruited via EPIC. The project/study leverages bidirectional
   messaging for BP monitoring and escalation to provider / care team on an
-  exception basis. Rollout to Penn Hospitals
+  exception basis. Rollout to Penn Hospitals is not complete.
 results:
   - result: Increased guideline adherence by 80%
   - result: Reduced 7 day readmission by 80%
@@ -28,7 +28,7 @@ features:
   - feature: Epic integration
 condition: Hypertension
 intervention: Wearables & remote monitoring
-outcome: Increased physical activity
+outcome: Reduced re-admissions
 dedicatedpage: false
 label: Standard of Care 
 image: /images/uploads/hsm.01.jpg

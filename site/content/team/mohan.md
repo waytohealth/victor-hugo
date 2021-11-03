@@ -14,6 +14,8 @@ publications:
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.19.0668
     - title: Remote Monitoring of Patients with Covid-19 - Design, implementation, and outcomes of the first 3,000 patients in COVID Watch
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0342
+    - title: Cancer COVID Watch: A feasibility study of intensive remote symptom monitoring via automated text messages with integrated nurse practitioner triage for patients with cancer and suspected or confirmed COVID-19
+      URL: https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.15_suppl.e13580
     - title: Association between behavioral phenotypes and response to a physical activity intervention using gamification and social incentives - Secondary analysis of the STEP UP randomized clinical trial
       URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239288 
     - title: How Penn Medicine Reimagined Breast Reconstruction, Shifting the Balance of Postoperative Care from Clinic to Home
