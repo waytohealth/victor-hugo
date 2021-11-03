@@ -12,7 +12,6 @@ authorimage: /images/uploads/kopinsky.jpg
 label: technical
 ---
 We recently introduced a new component - or rather set of components - to our infrastructure to improve our ability to monitor the operations of Way to Health. Prometheus and Grafana give us clear visual metrics for how things are working under the hood.
-XXXX add a bit more
 
 ## Background
 
