@@ -14,7 +14,7 @@ authors:
     authorname: Amy Pixley
     authorrole: Clinical Lead
 summary: >
-  The intent of this project is to capture patient reported outcomes (PROs) using an abbreviated version of the PRO-CTCAE survey as a pre-cursor to patient clinic visits. Patients receive a brief version of the survey over text and if necessary, a fuller version is as a survey link. This helps provide additional context to clinicians pre-visit. This is primarily focused on GI patients. 
+  The Symptom Assessment Management program captures patient-reported outcomes (PROs) to understand how IV or Oral chemotherpay treatments impact the patient's quality of life (QOL). The program's extensive PRO algorithm was developed based on PRO-CTCAE grading and severity. Patients receive the PRO survey over text after their first treatment appointment multiple times over a 2-6 months to guage the impact on their QOL. This in turn can drive clinical decisions.
 features:
   - feature: 2 way texting
   - feature: Survey management
