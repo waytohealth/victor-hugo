@@ -1,5 +1,5 @@
 ---
-title: Optimizing W2H Epic Embed
+title: Optimizing W2H Epic embed
 date: 2021-08-23
 summary: >-
   After multiple conversations with our clinical users, our team focused our efforts to redesign the Way to Health (W2H) Epic Embed. The goal was to streamline the clinician experience. The new design makes viewing a patient enrolled in a W2H program easier and optimizes the experience for the clinician. Here are some changes you can expect to see.
