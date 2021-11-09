@@ -1,5 +1,5 @@
 ---
-title: Fresh Start Effect
+title: Fresh start effect
 date: 2021-10-29
 summary: >-
   Our team is no stranger to the power of behavioral economics. Leveraging that “fresh start” effect with the new school year, September is a time for planning and preparation. Our operations team is back to full steam with a new full time analyst and our product owner back from parental leave. Projects launched this month include PennMedConnect at HUP, SAM Oncology at Lancaster General Hospital, Heart Safe Motherhood at Jefferson, and Intermittent Fasting RCT.
