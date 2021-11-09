@@ -1,8 +1,8 @@
 ---
 title: 'Breast Cancer Screening Outreach'
-date: 2019-09-10
+date: 2021-09-10
 area: complete
-subdomain: Patient Wellness
+subdomain: Wellness
 status: Complete
 authors:
   - 
@@ -18,7 +18,7 @@ summary: >
 features:
   - feature: 'Two-way texting'  
   - feature: 'CSV Bulk Upload'
-condition: Patient Wellness
+condition: Prevention
 intervention: Two-way Texting 
 outcome: Increased patient wellness visits
 dedicatedpage: false

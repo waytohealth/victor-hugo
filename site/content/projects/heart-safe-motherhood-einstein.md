@@ -1,5 +1,5 @@
 ---
-title: 'Heart Safe Motherhood: Jefferson Health'
+title: 'Heart Safe Motherhood: Einstein Health'
 date: 2020-09-17
 area: clinical
 subdomain: Womens Health
@@ -14,12 +14,11 @@ authors:
     authorname: Sindhu Srinivas, MD
     authorrole: Principal Investigator
 summary: >
-  Rollout of Heart Safe Motherhood program to Jefferson Health as part of a Philadelphia-wide rollout of the program. This is funded by a grant from Merck via the Safer Cities program. Additional deployments at other Philadelphia based hospitals is ongoing. 
+  Rollout of Heart Safe Motherhood program to Einstein Health as part of a Philadelphia-wide rollout of the program. This is funded by a grant from Merck via the Safer Cities program. Additional deployments at other Philadelphia based hospitals is ongoing. 
 features:
-  - 
-    feature: Two-way Texting
-  - 
-    feature: Blood pressure monitoring
+  - feature: Two-way Texting
+  - feature: Blood pressure monitoring
+  - feature: Multiple languages
 results:
   - result: Increased guideline adherence by 80%
   - result: Reduced 7 day readmission by 80%    

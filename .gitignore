@@ -3,3 +3,4 @@ dist/
 site/data/webpack.json
 *.code-workspace
 package-lock.json
+*.DS_Store
