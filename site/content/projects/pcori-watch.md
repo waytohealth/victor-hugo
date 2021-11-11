@@ -2,7 +2,7 @@
 title: PCORI Watch
 date: 2020-11-15
 area: research
-subdomain: COVID
+subdomain: Remote Monitoring
 authors:
   - authorname: Krisda Chiyachati, MD
     authorimage: https://ldi.upenn.edu/wp-content/uploads/2015/07/Krisda-Chaiyachati-expert-NEW-408x452.webp
