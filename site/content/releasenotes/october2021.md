@@ -2,7 +2,7 @@
 title: Focus on analytics
 date: 2021-11-08
 summary: >-
-  The last quarter of 2021 is focused on surfacing data more easily and readily to our users. October laid the groundwork for the anticipated release of standard dashboards and a report builder through our analytics tool, Lens. Projects launched this month include THEA 2.0 which layers education content on top of existing prenatal blood pressure monitoring program, Breast Cancer Screening Outreach, and Step 4Life, an RCT leveraging gamification concepts to improve physical activity among patients with Alzheimers.
+  The last quarter of 2021 is focused on surfacing data more easily and readily to our users. October laid the groundwork for the anticipated release of standard dashboards and a report builder through our analytics tool, Lens. Projects launched this month include THEA 2.0, which layers education content on top of existing prenatal blood pressure monitoring program, Breast Cancer Screening Outreach, and Step 4Life, an RCT leveraging gamification concepts to improve physical activity among patients with Alzheimers.
 ---
 
 ## Product updates from October 2021
