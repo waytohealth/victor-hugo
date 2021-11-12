@@ -39,7 +39,8 @@ Response times - Notification channel
 RCT? - Breadth (# of facilities) - Depth (# of clinicians/care team members) - Scale (# of pts)
 
 
-
+### Channels
+App - Email - text - IVR
 
 
 ## Press & Publications
