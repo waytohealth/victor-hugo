@@ -12,6 +12,8 @@ publications:
   listing:
     - title: Key Insights on Launching a Nudge Unit within a Health Care System
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.19.0668
+    - title: Comparative Effectiveness of an Automated Text Messaging Service for Monitoring COVID-19 at Home
+      URL: https://www-acpjournals-org.proxy.library.upenn.edu/doi/10.7326/M21-2019
     - title: Remote Monitoring of Patients with Covid-19 - Design, implementation, and outcomes of the first 3,000 patients in COVID Watch
       URL: https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0342
     - title: Cancer COVID Watch -  A feasibility study of intensive remote symptom monitoring via automated text messages with integrated nurse practitioner triage for patients with cancer and suspected or confirmed COVID-19

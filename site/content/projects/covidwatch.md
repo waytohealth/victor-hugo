@@ -27,6 +27,9 @@ pubs:
   - pubURL: 'https://catalyst.nejm.org/doi/full/10.1056/CAT.20.0342'
     pubname: >-
       Remote Monitoring of Patients with Covid-19: Design, implementation, and outcomes of the first 3,000 patients in COVID Watch
+  - pubURL: 'https://www.acpjournals.org/doi/10.7326/M21-2019'
+    pubname: >-
+      Comparative Effectiveness of an Automated Text Messaging Service for Monitoring COVID-19 at Home
 condition: COVID-19
 intervention: Remote monitoring
 outcome: Efficient resource utilization while ensuring patient safety
