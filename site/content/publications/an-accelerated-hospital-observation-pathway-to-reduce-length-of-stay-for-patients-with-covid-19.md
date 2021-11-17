@@ -7,7 +7,7 @@ summary: Strategies to maintain hospital capacity during the COVID-19 pandemic
   included reducing hospital length of stay (LOS) for infected patients. This
   program sought to evaluate the association between LOS and enrollment in the
   COVID Accelerated Care Pathway, which consisted of a hospital observation
-  protocol and postdischarge automated text message–based monitoring. This
+  protocol and post-discharge automated text message–based monitoring. This
   program showed a reduction in hospital length of stay by more than 2 days.
 authors: Austin S. Kilaru, MD, Stefanie B. Porges, MD, Lindsay Grossman, BA, M.
   Kit Delgado, MD, Anna U. Morgan, MD, Krisda H. Chaiyachati, MD, David A. Asch,
