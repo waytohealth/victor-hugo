@@ -23,6 +23,7 @@ features:
   - feature: Remote patient monitoring
   - feature: Bi-directional texting
   - feature: Epic Integrations
+spotlight: "true"
 image: /images/uploads/10up-nudge1-master768.jpg
 solution_area: COVID-19 Response Solutions
 pubs:
