@@ -20,7 +20,8 @@ collections:
       - {label: "Summary", name: "summary", widget: "markdown"} # summary of the study
       - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}], required: false}
       - {label: "Features Used (minimum of two required)", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}]}
-      - {label: "Spotlight (only select if complete", name: "spotlight", widget: "select", options: ["true", "false"], required: false}
+      - {label: "Spotlight (only select TRUE otherwise ignore)", name: "spotlight", widget: "select", options: ["true", "false"], required: false}
+      - {label: "Will this have a full page with details? (only select TRUE otherwise ignore)", name: "dedicatedpage", widget: "select", options: ["true", "false"], required: false}      
       - {label: "External URL (if program has its own separate site like HSM or CW)", name: "externalurl", widget: "string", required: false}
       - {label: "Image for dedicated page (re-use ones already used as much as possible)", name: "image", widget: "image", required: false} # dedicated page image
       - {label: "COVID Related?", name: "solution_area",widget: "select", options: ["COVID-19 Response Solutions"], required: false} # if covid related select
