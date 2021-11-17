@@ -23,9 +23,11 @@ features:
   - feature: Remote patient monitoring
   - feature: Bi-directional texting
   - feature: Epic Integrations
+image: /images/uploads/10up-nudge1-master768.jpg
 solution_area: COVID-19 Response Solutions
 pubs:
   - pubname: An Accelerated Hospital Observation Pathway to Reduce Length of Stay
       for Patients With COVID-19
     pubURL: https://www.ajmc.com/view/an-accelerated-hospital-observation-pathway-to-reduce-length-of-stay-for-patients-with-covid-19
 ---
+wonder what this will look like . just testing
