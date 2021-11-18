@@ -22,7 +22,7 @@ results:
 features:
   - feature: Two-way Texting
   - feature: EHR Integration
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 
     pubname: >-

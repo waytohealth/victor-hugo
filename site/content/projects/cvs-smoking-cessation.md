@@ -19,7 +19,7 @@ summary: >-
 results:
   - result: Rewards quit rate - 17.1%
   - result: Personal stake quit rate - 52.3%
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'http://www.nejm.org/doi/full/10.1056/NEJMoa1414293#t=article'
     pubname: >-

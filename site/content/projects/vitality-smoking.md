@@ -19,7 +19,7 @@ results:
 features:
   - feature: Financial Incentives
   - feature: Text Messaging
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'https://www.nejm.org/doi/full/10.1056/NEJMsa1715757'
     pubname: >-

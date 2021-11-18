@@ -19,7 +19,7 @@ summary: >-
 results:
   - result: Increased activity achievement by 50%
   - result: Post study activity increased by 27%
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'http://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2655242'
     pubname: >-

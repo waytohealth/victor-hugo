@@ -22,7 +22,7 @@ results:
 features:
   - feature: Survey Administration
   - feature: Financial Incentives
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/29652523'
     pubname: >-

@@ -22,7 +22,7 @@ features:
   - feature: LIMS integration
   - feature: Arms & Randomization
   - feature: Nudges
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 
     pubname: >-

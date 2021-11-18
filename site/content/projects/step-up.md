@@ -19,7 +19,7 @@ features:
   - feature: Device Integration
   - feature: Randomization
   - feature: Gamification
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2749761'
     pubname: >-

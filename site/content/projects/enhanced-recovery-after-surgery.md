@@ -21,7 +21,7 @@ results:
 features:
   - feature: Two-way Texting
   - feature: EHR Integration
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: 'https://doi.org/10.3171/2018.9.SPINE18681'
     pubname: >-

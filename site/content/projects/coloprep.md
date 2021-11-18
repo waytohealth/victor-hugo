@@ -18,7 +18,7 @@ features:
   - feature: Two-way Texting
   - feature: EHR Integration
   - feature: Randomization
-spotlight: true
+spotlight: false
 pubs:
   - pubURL: >-
       https://journals.sagepub.com/doi/full/10.1177/1090198119869964?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed
