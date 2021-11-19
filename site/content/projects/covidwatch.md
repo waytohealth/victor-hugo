@@ -8,17 +8,21 @@ authors:
     authorname: 'Anna Morgan, MD'
     authorrole: Medical Director, COVID Watch
   - authorimage: /images/uploads/DavidDo.jpg
-    authorname: 'David Do, MD'
-    authorrole: Clinical Informatics Lead
+    authorname: 'David Asch, MD'
+    authorrole: Principal Lead
 summary: >-
   A Penn Medicine program that automatically checks in with patients at risk for complications of COVID-19 who are self-isolating at home. Patients are monitored 24x7 via text message and escalations managed by a nursing team with full Epic integration. 
 results:
   - result: >-
-      Staff hour reduction to just 64 per day
+      20,000+ patients managed   
+  - result: >-
+      Reduced mortality by 68%
   - result: >-
       $2.3 Million savings over 100 days
   - result: >-
-      Patient NPS score of 80      
+      Patient NPS score of 80 
+  - result: >-
+      Call backs within 30 mins           
 features:
   - feature: Two-way Texting
   - feature: EHR Integration
