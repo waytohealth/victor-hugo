@@ -2,7 +2,7 @@
 title: Pregnancy of Unknown Location
 date: 2021-11-23
 area: clinical
-subdomain: Maternal health
+subdomain: Womens health
 authors:
   - authorname: "Anne Flynn, MD "
     authorrole: Clinical Lead
@@ -18,5 +18,5 @@ results:
   - result: 2. Increased quality of care for early pregnancy monitoring
 features:
   - feature: EPIC embed
-  - feature: Reminder nudges
+  - feature: Bi-directional text messaging
 ---
