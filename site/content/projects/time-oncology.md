@@ -7,6 +7,9 @@ authors:
   - authorname: "Erin Bange, MD "
     authorrole: Principal Investigator
     authorimage: /images/uploads/erin-bange.png
+  - authorname: Lawrence Shulman, MD
+    authorrole: Clinical Oversight
+    authorimage: https://pc3i.upenn.edu/wp-content/uploads/2019/10/shulman-larry1024x768-1024x768.jpg
 summary: Oncology patients spend a large proportion of their time attending in
   person clinical appointments. In TIME, a text-based intervention to minimize
   the time burden of routine clinical care, participants complete e-triage by
@@ -21,5 +24,5 @@ results:
   - result: 4. To assess safety associated with the e-triage approach
 features:
   - feature: EPIC flowsheet integration and inbasket alerts
-  - feature: Reminder nudges
+  - feature: Bidirectional texting
 ---
