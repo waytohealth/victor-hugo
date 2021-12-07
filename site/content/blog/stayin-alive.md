@@ -56,7 +56,7 @@ The main way to see the freezing behavior in action is using strace. [This blog 
 
 Here's a trimmed down and annotated strace from when I watched this timeout behavior in action:
 
-```php
+```
 # Getting job from queue (beanstalkd)
 Wed Dec  1 12:30:15 2021 sendto(10, "reserve-with-timeout 0\r\n", 24, MSG_DONTWAIT, NULL, 0) = 24
 Wed Dec  1 12:30:15 2021 recvfrom(10, "RESERVED 75649007 136\r\n{\"display"..., 8192, MSG_DONTWAIT, NULL, NULL) = 161
@@ -86,7 +86,7 @@ Wed Dec  1 12:45:43 2021 +++ killed by SIGKILL +++
 
 When the connection isn't timing out, the MySQL query gets an immediate response from the server.
 
-```php
+```
 # Sending a query to MySQL
 Dec 06 16:01:14 sendto(11, "\v\2\0\0\3SELECT q.id AS q__id, q.for"..., 527, MSG_DONTWAIT, NULL, 0) = 527
 
