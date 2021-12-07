@@ -1,5 +1,5 @@
 ---
-title: Ah ah ah ah Keepin' Alive
+title: Stayin' Alive
 date: 2021-12-07
 summary: How we solved a thorny technical challenge involving network
   connections dropped by the firewall without notification.
