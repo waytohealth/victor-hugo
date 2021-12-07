@@ -8,6 +8,11 @@ authorname: Michael Y. Kopinsky
 authorimage: /images/uploads/kopinsky.jpg
 label: technical
 ---
+> Ah, ha, ha, ha, stayin' alive, stayin' alive.
+> Ah, ha, ha, ha, stayin' alive.
+> - The Bee Gees
+
+
 I recently dealt with a thorny technical issue that forced me to think far more about firewalls and TCP than I usually do. I heard that other teams in the health system are dealing with a similar problem, and thought this write-up would be worth sharing.
 
 The issue we're seeing is that the application (a queue worker on a low-volume application which only gets work at sporadic intervals) is keeping a connection open to the database open for hours with no activity. After an hour the firewall is dropping the connection, but in a way that neither the client (the PHP queue worker) nor the server (MySQL) knows about it. On the server, `show processlist` shows the connection as still connected and in a `Sleep` status, on the client side `netstat -an` shows the connection as alive and in an `ESTABLISHED` state, but when the client sends anything down the pipe, the packets are just being dropped by the firewall. This is explained well in [this post on Network Engineering StackExchange](https://networkengineering.stackexchange.com/questions/46025/how-would-a-firewall-kill-a-tcp-connection-without-rst-or-fin).
@@ -15,27 +20,40 @@ The issue we're seeing is that the application (a queue worker on a low-volume a
 We've seen similar manifestations of this in the past, where a long running task would start by writing to the database (`INSERT INTO task_log(...)`), shell out to do a bunch of work, and then write to the database (`UPDATE task_log SET end_time=? WHERE id=?`). The final write to the database, which was sometimes hours later, would error with `MySQL server has gone away`. We "fixed" that by slicing the work into smaller chunks that would finish before the firewall disconnected the connection.
 
 There are a few possible paths to fix this - in the firewall, in the client  OS, and in the application.
+
 1. On the firewall: `session-ttl` controls how long to allow sessions to idle, defaulting to 3600 seconds. We could increase it (and attempted to do so to 7200 at one point, though we accidentally edited the wrong policy) but that just defers the problem. There shouldn't be an arbitrary cutoff of inactivity after which a database connection freezes for 15 minutes, and making that timeout be 4 hours (or even 24 hours) instead of 2 hours delays it but doesn't solve it.
 2. On the firewall: `set timeout-send-rst enable` tells the firewall to send an RST (reset) packet to both the client and server when the session times out. If the client and the server are notified that the connection timed out, they should hopefully be smart enough to reconnect rather than trying to use the black-holed connection.
-3. On the client OS, tell the networking stack to send a TCP keepalive - at a frequency shorter than the firewall's `session-ttl`. By default Linux sends a keepalive every 120 minutes, but this is configurable. By sending a TCP keepalive from within the networking stack, this keeps the connection active and prevents the database from disconnecting it. https://tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html
+3. On the client OS, tell the networking stack to send a TCP keepalive - at a frequency (`tcp_keepalive_time`) shorter than the firewall's `session-ttl`. By default Linux sends a keepalive every 120 minutes, but this is configurable. By sending a TCP keepalive from within the networking stack, this keeps the connection active and prevents the database from disconnecting it. https://tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html
 4. One additional option would be to set something on the application level, to force the application to send a query like `SELECT 1` every 15 minutes. https://github.com/doctrine/dbal/pull/414 is an example of a library adding that functionality. This is contingent on database library support, and the application being able to send that 15-minute ping when otherwise idle.
 
-Yesterday, we temporarily implemented fix 3, setting the TCP keepalive interval in the client OS to 10 minutes instead of 2 hours. I observed through netstat timers (see below) that it was resetting the keepalive timer every 10 minutes, and we saw in the firewall session table that the session was indeed staying alive:
+
+# What we did:
+*Monday:* we temporarily implemented fix 3, setting the TCP keepalive interval in the client OS to 10 minutes instead of 2 hours. I observed through netstat timers (see below) that it was resetting the keepalive timer every 10 minutes, and we saw in the firewall session table that the session was indeed staying alive:
+
 ```
 session info: proto=6 proto_state=01 duration=4238 expire=3563 timeout=3600 flags=00000000 sockflag=00000000
 ```
+
 This tells us that although the connection has been ongoing for more than an hour (duration=4238), it only has 37 seconds (3600 - 3563) of inactivity. We also observed that with that fix in place, the application did behave as expected, and did not time out when sending a query to MySQL.
 
-We also implemented fix 2, telling the firewall to terminate connections loudly (with an RST packet) rather than dropping it gracefully. However, the client-side TCP keepalive fix meant that this point was never reached so we don't know yet if it's working. We removed fix 3, and our plan for today is to let things run with only fix 2 in place, so we can see how the client and server handle the disconnection with RST.
+We also implemented fix 2, telling the firewall to terminate connections loudly (with an RST packet) rather than dropping it gracefully. However, the client-side TCP keepalive fix meant that this point was never reached so we didn't know yet if it was working. We removed fix 3 to let things run with only fix 2 in place, so we can see how the client and server handle the disconnection with RST.
 
+*Tuesday:* With only fix 3 (`set timeout-send-rst enable`) in place, we let things run for much of a day. I didn't watch as closely this time, but... results.... nope. Didn't work. After the 1hr timeout, the client application and MySQL server both reported the connection as alive, but the session table on the firewall didn't show it, and as expected, the application froze when it came time to do work. (Don't we all, sometimes?) I don't know why the `set timeout-send-rst enable` setting didn't work.
 
-This has been a fun journey to figure out. Thanks to Kyle and Albi for all the help!
+Rather than going back to fix 2 which would require updating the `tcp_keepalive_time` setting on every server in our environment, we realized that increasing the Firewall's session TTL to > 7200 (e.g. 7500 seconds) would allow the Linux default `tcp_keepalive_time` to refresh the TCP connection sooner than the Firewall would disconnect
 
-# Diagnostic tool: strace
+So in the end, the fix we seem to be going with is Fix 1, without the downside I thought it would carry. It's been working great for half a day, and assuming it continues to work, I expect that the increased session TTL will move from a local override in our firewall policy to a global firewall setting.
+
+# Diagnostic tools
+
+There were a few tools I learned about (or learned more intimately) during this process.
+
+## strace
 
 The main way to see the freezing behavior in action is using strace. [This blog post](https://shubhamjain.co/2015/09/10/debugging-stuck-php-fpm-process-with-strace/) was super helpful in interpreting the output from strace.
 
 Here's a trimmed down and annotated strace from when I watched this timeout behavior in action:
+
 ```php
 # Getting job from queue (beanstalkd)
 Wed Dec  1 12:30:15 2021 sendto(10, "reserve-with-timeout 0\r\n", 24, MSG_DONTWAIT, NULL, 0) = 24
@@ -65,6 +83,7 @@ Wed Dec  1 12:45:43 2021 +++ killed by SIGKILL +++
 ```
 
 When the connection isn't timing out, the MySQL query gets an immediate response from the server.
+
 ```php
 # Sending a query to MySQL
 Dec 06 16:01:14 sendto(11, "\v\2\0\0\3SELECT q.id AS q__id, q.for"..., 527, MSG_DONTWAIT, NULL, 0) = 527
@@ -75,7 +94,7 @@ Dec 06 16:01:14 recvfrom(11, "\1\0\0\1\0172\0\0\2\3def\vw2hprod_lgh\1q\tqueu"...
 
 As a side note: the timestamps shown above are not output by strace; I added them on by piping strace output to `ts`, which is installed as part of `moreutils`. strace prints it output to stderr, so to pipe to ts the full command is `strace -e trace=network -p $PID 2>&1 | ts`.
 
-# Diagnostic tool: netstat timers
+## netstat timers
 
 The keepalive timer can be seen by adding the `--timers` or `-o` flag to netstat. This is what the connections look like during an idle period, when the connection is still established and the keepalive counter is happily counting down from 7200 down to 0.
 
@@ -89,6 +108,7 @@ tcp        0    0 172.16.100.193:46202    172.16.32.8:3306        ESTABLISHED 86
 ```
 
 The `ss -o` command is similar, and I used it at times. Here's what it looks like when the PHP process is shouting in the void. The last column has 3 components:
+
 * `on`: indicates that there is a TCP retransmission timer active
 * `14sec`, `9.814ms`, etc: the amount of time remaining on that timer
 * `8`, `9`, `10`: The retransmission count
@@ -111,4 +131,8 @@ tcp    ESTAB      0      527    172.16.100.193:42724                172.16.32.8:
 ```
 
 More details on how to interpret these netstat timers can be found at https://superuser.com/a/904747/57372.
+
+# Conclusion
+
+This has been a fun journey to figure out. Thanks to Kyle McGrogan, Albi Kohen, and Dave Weise for all the help!
 
