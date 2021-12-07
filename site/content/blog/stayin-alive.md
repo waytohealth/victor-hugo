@@ -8,10 +8,12 @@ authorname: Michael Y. Kopinsky
 authorimage: /images/uploads/kopinsky.jpg
 label: technical
 ---
-> Ah, ha, ha, ha, stayin' alive, stayin' alive.
-> Ah, ha, ha, ha, stayin' alive.
-> - The Bee Gees
-
+<blockquote>
+<p>Ah, ha, ha, ha, stayin' alive, stayin' alive.</p>
+<p>Ah, ha, ha, ha, stayin' alive.</p>
+<p> - The Bee Gees</p>
+</blockquote>
+<p></p>
 
 I recently dealt with a thorny technical issue that forced me to think far more about firewalls and TCP than I usually do. I heard that other teams in the health system are dealing with a similar problem, and thought this write-up would be worth sharing.
 
