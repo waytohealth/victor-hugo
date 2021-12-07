@@ -1,8 +1,7 @@
 ---
 title: Stayin' Alive
 date: 2021-12-07
-summary: How we solved a thorny technical challenge involving network
-  connections dropped by the firewall without notification.
+summary: My most recent fun ("fun") technical challenge: at the intersection of application behavior, network behavior, OS behavior, and far more TCP details than I normally deal with as an application developer.
 image: /images/uploads/cleanshot-2021-12-07-at-11.16.03-2x.png
 authorname: Michael Y. Kopinsky
 authorimage: /images/uploads/kopinsky.jpg
