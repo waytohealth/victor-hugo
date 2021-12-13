@@ -18,7 +18,7 @@ features:
   - 
     feature: Fitbit device integration
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: Survey administration
 condition: Hypertension

@@ -24,7 +24,7 @@ results:
   - result: Matching deposits did not increase participation
 features:
   - feature: Financial Incentives
-  - feature: Deposit Randomization
+  - feature: Randomization
 spotlight: false
 pubs:
   - pubURL: 'http://journals.sagepub.com/doi/abs/10.1177/0890117116658210'

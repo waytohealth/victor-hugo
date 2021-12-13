@@ -17,7 +17,7 @@ results:
   - result:
 features:
   - feature: Device integrations
-  - feature: 2-way texting
+  - feature: SMS Conversations
   - feature: Social incentives
 spotlight: false
 pubs:

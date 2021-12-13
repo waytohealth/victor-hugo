@@ -18,7 +18,7 @@ features:
   - 
     feature: Fitbit Device integration
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: Gamification
 condition: Hypertension

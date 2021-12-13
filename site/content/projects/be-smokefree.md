@@ -20,7 +20,7 @@ features:
   - 
     feature: Financial incentives
   - 
-    feature: Two-way Texting
+    feature: SMS Conversations
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity

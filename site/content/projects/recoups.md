@@ -25,7 +25,7 @@ features:
   - 
     feature: 'Survey administration '
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity

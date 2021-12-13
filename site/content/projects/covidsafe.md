@@ -18,10 +18,9 @@ results:
   - result: >-
       65,000+ tests
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: LIMS integration
-  - feature: Arms & Randomization
-  - feature: Nudges
+  - feature: Randomization
 spotlight: false
 pubs:
   - pubURL: 

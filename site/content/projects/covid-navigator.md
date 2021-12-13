@@ -15,7 +15,7 @@ authors:
 summary: >
   This project leveraged the success and design on the COVID Watch project and modified it to address the specific needs of the University and it's faculty and students. Once test results were being communicated or symptoms were being, the next step was to be able to monitor students and faculty remotely and address any needs they might have. This project modified COVID Watch to check in with patients once a day (as opposed to twice in Watch) and escalations were directed to student wellness services for mental, physical, food and other related issues. The volume of students enrolled remained low given their demographics and other precautions being taken on campus. 
 features:
-  - feature: 'Two-way texting'  
+  - feature: 'SMS Conversations'  
   - feature: 'LIMS Integration'
 results:
   - result: '1200+ patients managed'

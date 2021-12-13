@@ -11,7 +11,7 @@ authors:
     authorname: 'Sindhu Srinivas, MD'
     authorrole: 
 summary: >-
-  A variant of the COVID Watch program that automatically checks in specifically with pregnant women at risk for complications of COVID-19 who are self-isolating at home. Patients are monitored 24x7 via text message and escalations managed by an hospital specific nursing teams with full Epic integration. 
+  A variant of the COVID Watch program that automatically checks in specifically with pregnant women at risk for complications of COVID-19 who are self-isolating at home. Patients are monitored 24x7 via text message and escalations managed by an hospital specific nursing teams with full EHR Integration. 
 results:
   - result: >-
       80+% patient engagement
@@ -20,7 +20,7 @@ results:
   - result: >-
       Covered 208 patients over six months
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: EHR Integration
 spotlight: false
 pubs:

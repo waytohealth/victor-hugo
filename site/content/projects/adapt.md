@@ -20,9 +20,9 @@ summary: >
   incentives to patients.
 features:
   - 
-    feature: 'Adheretech Pill Bottle Integration '
+    feature: 'Device Integration '
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: Gamification
 condition: Hypertension

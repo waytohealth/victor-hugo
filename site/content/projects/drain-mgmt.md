@@ -21,10 +21,10 @@ results:
   - result: Significant contribution margin
   - result: New Home Health revenue
 features:
-  - feature: 'Two-way texting'  
+  - feature: 'SMS Conversations'  
   - feature: 'EHR integration'
 condition: Surgery
-intervention: Two-way Texting 
+intervention: SMS Conversations 
 outcome: Reduced re-admissions and increased patient satisfaction
 dedicatedpage: false
 label: Standard of Care 

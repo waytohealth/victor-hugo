@@ -16,8 +16,8 @@ authors:
 summary: >
   The intent of this project is to create a texting algorithm that will support post-operative calls with gyn-oncology patients. Enabling texting communication that would filter the acuity, and would allow over-burdened nursing staff to triage the patients in a more timely way, while still connecting with all of the patients post-operatively.  If deployed, we see the scaling across the remainder of our surgical sub-specialties as a possibility.
 features:
-  - feature: 2 way texting
-  - feature: Epic integration
+  - feature: SMS Conversations
+  - feature: EHR Integration
 condition: Oncology
 intervention: Patient engagement and self-reporting
 outcome: Reduced burnout

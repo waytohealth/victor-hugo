@@ -16,14 +16,14 @@ authors:
 summary: >
   Text messages sent to patients post-surgery to help with recovery. These text messages are sent over the course of 7-10 days depending on the type of procedure. The text content is tailored to reminding patients on how to clean wounds, drink fluids to stay hydrated, and inform them of any dietary restrictions in place after surgery.
 features:
-  - feature: 'Two-way texting'  
+  - feature: 'SMS Conversations'  
   - feature: 'EHR integration'
 results:
   - result: Patient compliance increased to 90+% 
   - result: Readmission reduction of 50-85%
   - result: Length of stay reduction of 20-30%
 condition: Surgery
-intervention: Two-way Texting 
+intervention: SMS Conversations 
 outcome: Reduced re-admissions and increased patient satisfaction
 dedicatedpage: false
 label: Standard of Care 

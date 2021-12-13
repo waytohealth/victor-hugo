@@ -15,7 +15,7 @@ authors:
 summary: >
   As the University began to scale up the return of students to campus, there was an urgent need to provide COVID-19 testing capabilities as well as the need to communicate the test results back to students. The plan was to leverage the Automated Results Reporting program already developed at the health system and modify it to suit the University's needs. The key differences being a different LIMS system, integration to the red pass management system and escalations sent to Student Wellness and other student specific programs. 
 features:
-  - feature: 'Two-way texting'  
+  - feature: 'SMS Conversations'  
   - feature: 'LIMS Integration'
 results:
   - result: '38,000+ results communicated'

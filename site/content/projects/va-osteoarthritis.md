@@ -17,7 +17,7 @@ results:
   - result:
 features:
   - feature: Device Integrations
-  - feature: Surveys & 2-way texting
+  - feature: Surveys & SMS Conversations
   - feature: Financial Incentives
 spotlight: false
 pubs:

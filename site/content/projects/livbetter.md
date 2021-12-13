@@ -27,7 +27,7 @@ label: Standard of Care
 image: /images/uploads/remotemonitoring.jpg
 features:
   - feature: 'Remote monitoring'
-  - feature: 'Two-way Texting'
+  - feature: 'SMS Conversations'
   - feature: 'EHR integration'  
 ---
 

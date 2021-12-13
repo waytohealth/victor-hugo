@@ -16,9 +16,9 @@ authors:
 summary: >
   The Symptom Assessment Management program captures patient-reported outcomes (PROs) to understand how IV or Oral chemotherpay treatments impact the patient's quality of life (QOL). The program's extensive PRO algorithm was developed based on PRO-CTCAE grading and severity. Patients receive the PRO survey over text after their first treatment appointment multiple times over a 2-6 months to guage the impact on their QOL. This in turn can drive clinical decisions.
 features:
-  - feature: 2 way texting
+  - feature: SMS Conversations
   - feature: Survey management
-  - feature: Epic integration
+  - feature: EHR Integration
   - feature: Epic pools
   - feature: Access groups
 condition: Oncology

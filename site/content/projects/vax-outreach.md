@@ -18,8 +18,8 @@ results:
   - result: >-
       12,000+ appointments scheduled
 features:
-  - feature: Two-way Texting
-  - feature: EPIC integration
+  - feature: SMS Conversations
+  - feature: EHR Integration
   - feature: Salesforce integration
 spotlight: false
 pubs:

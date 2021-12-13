@@ -20,10 +20,10 @@ results:
   - result: Increased guideline adherence by 80%
   - result: Reduced 7 day readmission by 80%
 features:
-  - feature: 2 way texting
+  - feature: SMS Conversations
   - feature: Blood pressure cuff
   - feature: Automated alerts
-  - feature: Epic integration
+  - feature: EHR Integration
 spotlight: true
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/29703800'

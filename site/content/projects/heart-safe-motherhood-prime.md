@@ -18,7 +18,7 @@ summary: >
   University of North Carolina.
 features:
   - 
-    feature: Two-way Texting
+    feature: SMS Conversations
   - 
     feature: Survey administration
 condition: Hypertension

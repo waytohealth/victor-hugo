@@ -22,10 +22,10 @@ results:
   - result: Increased guideline adherence by 80%
   - result: Reduced 7 day readmission by 80%
 features:
-  - feature: 2 way texting
+  - feature: SMS Conversations
   - feature: Blood pressure cuff
   - feature: Automated alerts
-  - feature: Epic integration
+  - feature: EHR Integration
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Reduced re-admissions

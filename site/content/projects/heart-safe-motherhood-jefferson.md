@@ -17,7 +17,7 @@ summary: >
   Rollout of Heart Safe Motherhood program to Jefferson Health as part of a Philadelphia-wide rollout of the program. This is funded by a grant from Merck via the Safer Cities program. Additional deployments at other Philadelphia based hospitals is ongoing. 
 features:
   - 
-    feature: Two-way Texting
+    feature: SMS Conversations
   - 
     feature: Blood pressure monitoring
 results:

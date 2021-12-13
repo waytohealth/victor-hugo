@@ -18,8 +18,8 @@ summary: "COVID Watch is a successful program that monitors COVID suspected
   additional value, if any, of the use of pulse oximeters. Enrollment in the
   program was completed in record time and results are pending publication. "
 features:
-  - feature: Bi-directional texting
-  - feature: Epic Integration
+  - feature: SMS Conversations
+  - feature: EHR Integration
   - feature: Randomization
 image: /images/uploads/covid.blog.01.jpg
 ---

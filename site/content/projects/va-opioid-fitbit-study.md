@@ -13,10 +13,10 @@ authors:
     authorimage: /images/uploads/chhabra.jpg
     authorname: Manik Chhabra, MD, MSHP
     authorrole: Investigator
-summary: 'Bidirectional texting intervention, assessing participants use of medication, pain and other symptoms via survey. 3 arms have been designed - control, intervention and intervention plus incentive. Deployed at the VA for opioid patients.'
+summary: 'SMS Conversations intervention, assessing participants use of medication, pain and other symptoms via survey. 3 arms have been designed - control, intervention and intervention plus incentive. Deployed at the VA for opioid patients.'
 features:
   - 
-    feature: Two-way Texting
+    feature: SMS Conversations
   - 
     feature: Survey administration
   - 

@@ -21,7 +21,7 @@ summary: >-
 features:
   - feature: Lottery
   - feature: Financial Incentives
-  - feature: Wisepill Device Integration
+  - feature: Device Integration
 spotlight: false
 condition: Hypertension
 intervention: Wearables & remote monitoring

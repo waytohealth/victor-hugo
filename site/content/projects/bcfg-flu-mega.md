@@ -22,8 +22,8 @@ results:
   - result: Text messaging effectiveness
 features:
   - feature: Arms and randomization
-  - feature: EHR integration (appts)
-  - feature: Text messaging and scheduling
+  - feature: Appointment Based Schedules
+  - feature: SMS Conversations
 spotlight: true
 dedicatedpage: true
 image: /images/uploads/flushot.jpg

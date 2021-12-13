@@ -16,7 +16,7 @@ summary: >-
   participation across four R01 funded research trials targeting hard to reach
   populations such as smokers and people living with HIV.
 features:
-  - feature: Flexible Event Scheduling
+  - feature: Decision Trees
   - feature: CSV Upload
 condition: Hypertension
 intervention: Wearables & remote monitoring

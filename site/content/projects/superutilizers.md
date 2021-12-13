@@ -14,7 +14,7 @@ summary: >
   utilization of healthcare services
 features:
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: EPIC Appointment Date Finder Integration
 condition: Hypertension
