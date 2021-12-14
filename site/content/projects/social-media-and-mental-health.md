@@ -20,7 +20,7 @@ results:
       Monitoring signs of anxiety and depression in a participant's social media
       data. 
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: 'Survey Administration '
 condition: Hypertension
 intervention: Wearables & remote monitoring

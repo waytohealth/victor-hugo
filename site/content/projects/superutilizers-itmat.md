@@ -22,7 +22,7 @@ summary: >
   matched.
 features:
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: Medication Adherence Monitoring
 condition: Hypertension

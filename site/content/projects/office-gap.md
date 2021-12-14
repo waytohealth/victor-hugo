@@ -15,7 +15,7 @@ summary: >-
   The intent of this program being run out of Michigan State University is to improve diabetic patients’ adherence to treatment and thus, increase prevention of cardiovascular disease. A comprehensive series of educational text messages are used to engage patients in their care.
 features:
   - feature: Surveys
-  - feature: 2 way texting
+  - feature: SMS Conversations
   - feature: Randomization
 spotlight: false
 condition: Diabetes

@@ -16,7 +16,7 @@ authors:
 summary: 'Participants receive a smartphone breathalyzer to provide feedback on their estimated blood alcohol level. The intervention compares loss- and gain-framed messages that make the consequences of drinking and driving more salient to standard messages not to drink and drive.'
 features:
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
   - 
     feature: 'Survey administration '
 condition: Hypertension

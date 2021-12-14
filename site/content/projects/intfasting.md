@@ -15,7 +15,7 @@ summary: >-
   18 week, 2 arm RCT to test ways to promote intermittent fasting among patients who are overweight with high BP. Patients will receive a BP cuff and scale, without integration. Patients will receive daily texts asking if they've fasted for 16 hours, and weekly texts asking for weight and BP 
 features:
   - feature: Patient self reporting
-  - feature: 2 way texting
+  - feature: SMS Conversations
   - feature: Randomization
 spotlight: false
 condition: Obesity

@@ -16,14 +16,14 @@ authors:
 summary: >
   Text conversations to monitor patients’ ostomy output levels after an ileostomy procedure. Patients can send in output values throughout the day, whenever they empty their ostomy bag. We calculate their levels over varying hours to determine total output and compare against thresholds. If these reported outputs are above or below thresholds, patient’s care team is alerted to engage in high-touch care that could lead to a home infusion visit. This surfaces patients who are at risk of post-op readmission.
 features:
-  - feature: 'Two-way texting'  
+  - feature: 'SMS Conversations'  
   - feature: 'EHR integration'
 results: 
   - result: Reduced post-op visits
   - result: Reduced hospital readmissions by 54%
   - result: Increased patient satisfaction
 condition: Surgery
-intervention: Two-way Texting 
+intervention: SMS Conversations 
 outcome: Reduced re-admissions and increased patient satisfaction
 dedicatedpage: false
 label: Standard of Care 

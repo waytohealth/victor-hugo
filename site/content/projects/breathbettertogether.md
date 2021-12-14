@@ -16,8 +16,8 @@ authors:
 summary: >
   In BBT, COPD patients receive daily breathing check-ins by text message and escalations are sent to their care team through cureatr, email, and EPIC inbasket. The existing program will be rebuilt so that patients will automatically flow from 45 days of daily monitoring with escalations sent to their inpatient team to indefinite weekday monitoring with escalations sent to the nurse pool associated with their pulmonologist. There will also be a workflow for high risk patients to receive indefinite daily monitoring. A rebuild is underway to enhance the program. The rebuild will include non-adherence tracking, automated handling of readmissions, discharges, and deaths, and simplified daily check-in text language.  
 features:
-  - feature: Two-way Texting
-  - feature: Epic integration
+  - feature: SMS Conversations
+  - feature: EHR Integration
   - feature: Survey administration
 results:
   - result: Reduced readmissions by 44%

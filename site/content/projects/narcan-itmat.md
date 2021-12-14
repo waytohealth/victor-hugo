@@ -19,7 +19,7 @@ summary: >
   Library of Phila.
 features:
   - 
-    feature: Two-way Texting
+    feature: SMS Conversations
   - 
     feature: Survey administration
   - 

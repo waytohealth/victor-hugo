@@ -21,7 +21,7 @@ results:
   - result: 'Monitor patient blood pressures from home and intervene as necessary. '
 features:
   - feature: 'Blood pressure monitoring via text messaging. '
-  - feature: 'EPIC Integration '
+  - feature: 'EHR Integration '
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity

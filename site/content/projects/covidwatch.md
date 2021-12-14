@@ -11,7 +11,7 @@ authors:
     authorname: 'David Asch, MD'
     authorrole: Principal Lead
 summary: >-
-  A Penn Medicine program that automatically checks in with patients at risk for complications of COVID-19 who are self-isolating at home. Patients are monitored 24x7 via text message and escalations managed by a nursing team with full Epic integration. 
+  A Penn Medicine program that automatically checks in with patients at risk for complications of COVID-19 who are self-isolating at home. Patients are monitored 24x7 via text message and escalations managed by a nursing team with full EHR Integration. 
 results:
   - result: >-
       20,000+ patients managed   
@@ -24,7 +24,7 @@ results:
   - result: >-
       Call backs within 30 mins           
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: EHR Integration
 spotlight: true
 pubs:

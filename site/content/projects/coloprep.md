@@ -15,7 +15,7 @@ results:
   - result: 'Improved show rate by 30%'
   - result: Maintained or improved quality of prep
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: EHR Integration
   - feature: Randomization
 spotlight: false

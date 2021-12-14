@@ -19,7 +19,7 @@ results:
   - result: >-
       3x greater mobility on post-op day 0
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: EHR Integration
 spotlight: false
 pubs:

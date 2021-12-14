@@ -19,8 +19,8 @@ summary: >-
   them to submit their photos. If they choose the text message option, they
   receive step-by-step guidance (with links to example images). 
 features:
-  - feature: Two-way texting
-  - feature: Conditional Surveys
+  - feature: SMS Conversations
+  - feature: Survey Administration
   - feature: EHR integration
 image: /images/uploads/hsm.01.jpg
 solution_area: 'Quality, Safety and Patient Experience Solutions'

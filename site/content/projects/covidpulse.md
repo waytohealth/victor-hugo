@@ -20,7 +20,7 @@ results:
   - result: >-
       $2.5M PCORI award
 features:
-  - feature: Two-way Texting
+  - feature: SMS Conversations
   - feature: EHR Integration
 spotlight: false
 pubs:

@@ -17,7 +17,7 @@ results:
   - result:
 features:
   - feature: Device Integrations
-  - feature: 2-way texting
+  - feature: SMS Conversations
 spotlight: false
 pubs:
 condition: Hypertension

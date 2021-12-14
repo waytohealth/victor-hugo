@@ -16,7 +16,7 @@ summary: >-
   outcomes associated with gestational weight gain.
 features:
   - feature: Survey Administration
-  - feature: Nokia Scale Device Integration
+  - feature: Device Integration
 spotlight: false
 condition: Hypertension
 intervention: Wearables & remote monitoring

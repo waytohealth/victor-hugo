@@ -18,9 +18,8 @@ results:
   - result: >-
       Increased installs of patient app
 features:
-  - feature: Two-way Texting
-  - feature: Epic Workbench
-  - feature: Epic SDE writeback
+  - feature: SMS Conversations
+  - feature: EHR Integration
 spotlight: false
 pubs:
   - pubURL: 

@@ -18,7 +18,7 @@ summary: >
   following Orthopaedic surgery.
 features:
   - 
-    feature: 'Bidirectional texting '
+    feature: 'SMS Conversations '
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity
