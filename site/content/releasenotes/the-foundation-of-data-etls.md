@@ -2,16 +2,17 @@
 title: "The foundation of analytics: ETLs"
 date: 2021-12-20
 summary: >-
-  With the end of the quarter approaching, we are inching closer towards our
-  major release: Integration between Way to Health and our analytics tool, Lens.
-  See product updates below for more details.
+  With the end of the quarter approaching, we are getting closer towards our
+  next major release: Simplifing and speeding up integration between Way to
+  Health and our analytics tool, Lens. See product updates below for more
+  details.
 
 
-  On the operations front, we launched nine implementations last month. Of those, several projects focused on understanding and improving behaviors around substance abuse disorders. Projects include a trial focused on increasing Narcan carrying among patients with opioid use disorder (OUD), a pilot developed to better understand needs of patients with OUD leaving the hospital, and remote engagement strategies targeted at improving attitudes of nurses towards patients with substance abuse disorders.
+  On the operations front, we launched nine implementations last month. Of those, several projects focused on understanding and improving behaviors around substance abuse disorders. Projects include a trial focused on increasing Narcan carrying among patients with opioid use disorder (OUD), a pilot developed to better understand needs of patients with OUD leaving the hospital built on the COVID Watch model, and remote engagement strategies targeted at improving nursing engagement for patients with substance abuse disorders.
 ---
 ## Product updates from November 2021
 
-In early 2022, we'll be releasing a custom report builder and the availability of standard dashboards. During November, we laid the foundation to make this possible: The creation of standard ETLs. This stands for Extract, Transfer, and Load, a process our engineers use to get data out of W2H and transform it into a usable format for building reports and dashboards. The improved and integrated Lens will mean more information at your finger tips and less clicks to get there.
+In early 2022, we'll be releasing a custom report builder and the availability of standard dashboards. During November, we laid the foundation to make this possible: the creation of standard Extract, Transform, and Load process (ETL), used to get data out of the core W2H database and transform it into a usable format for building reports and dashboards. The improved and integrated Lens will mean more information at your finger tips and less clicks to get there.
 
 Below is a summary of enhancements and bug fixes completed in November 2021.
 
