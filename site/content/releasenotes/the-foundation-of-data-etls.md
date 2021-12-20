@@ -3,7 +3,7 @@ title: "The foundation of analytics: ETLs"
 date: 2021-12-20
 summary: >-
   With the end of the quarter approaching, we are getting closer towards our
-  next major release: Simplifing and speeding up integration between Way to
+  next major release: Simplifying and speeding up integration between Way to
   Health and our analytics tool, Lens. See product updates below for more
   details.
 
