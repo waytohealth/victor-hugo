@@ -1,5 +1,5 @@
 ---
-title: "The foundation of data: ETLs"
+title: "The foundation of analytics: ETLs"
 date: 2021-12-20
 summary: >-
   With the end of the quarter approaching, we are inching closer towards our
