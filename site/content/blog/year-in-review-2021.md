@@ -3,7 +3,7 @@ title: A Year in Review - 2021 in Numbers
 date: 2022-01-26
 summary: '2021 was a big year for Way to Health - not only for our team and product, but for the army of amazing researchers and clinical care teams that develop and manage interventions on our platform. '
 image: /images/summary.2021.png
-authorname: Christianne Sevinv
+authorname: Christianne Sevinc
 authorimage: /images/team/sevinc.jpg
 label: platform
 ---
