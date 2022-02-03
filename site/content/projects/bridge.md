@@ -16,5 +16,6 @@ results:
       women with persistent impaired glucose tolerance
 features:
   - feature: ADT feed
-  - feature: educational text messages
+  - feature: SMS Conversations
+  - feature: EHR Integration
 ---

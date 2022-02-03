@@ -17,7 +17,7 @@ summary: >-
   populations such as smokers and people living with HIV.
 features:
   - feature: Decision Trees
-  - feature: CSV Upload
+  - feature: CSV File Upload
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity

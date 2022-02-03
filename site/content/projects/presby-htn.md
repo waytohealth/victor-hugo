@@ -16,6 +16,6 @@ results:
   - result: 2. Increased medication adherence
 features:
   - feature: SMS blood pressure receiver
-  - feature: non-adherence tracking
-  - feature: bidirectional text messaging
+  - feature: Non-adherence tracking
+  - feature: SMS Conversations
 ---

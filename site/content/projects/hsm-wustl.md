@@ -22,5 +22,5 @@ results:
 features:
   - feature: SMS blood pressure receiver
   - feature: Non-adherence tracking
-  - feature: "Bidirectional text messaging "
+  - feature: "SMS Conversations"
 ---

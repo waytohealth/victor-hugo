@@ -22,7 +22,7 @@ features:
   - 
     feature: 'Device Integration '
   - 
-    feature: 'SMS Conversations '
+    feature: 'SMS SMS Conversations '
   - 
     feature: Gamification
 condition: Hypertension

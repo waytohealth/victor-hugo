@@ -18,11 +18,9 @@ summary: >
   and survivorship. Targeted at patients with advanced non-small cell lung cancer
   initiating chemotherapy, includes symptom assessment and provider alerts
 features:
-  - 
-    feature: Survey administration
-  - 
-    feature: Bidirectonal texting
-condition: Hypertension
+  - feature: Survey administration
+  - feature: SMS Conversations
+condition: Oncology
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity
 dedicatedpage: false

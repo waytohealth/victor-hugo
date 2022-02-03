@@ -15,7 +15,7 @@ summary: >-
   goal setting and gamification.
 features:
   - feature: Gamification
-  - feature: Conversations
+  - feature: SMS Conversations
 spotlight: false
 condition: Hypertension
 intervention: Wearables & remote monitoring

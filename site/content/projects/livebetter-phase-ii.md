@@ -17,12 +17,10 @@ summary: >
   Larger trial building on Livebetter Phase 1. Focused on automated hovering of
   cirrhosis and liver transplant patients
 features:
-  - 
-    feature: Weight Monitoring
-  - 
-    feature: 'Survey administration '
-  - 
-    feature: Bidirectional Temperature Monitoring
+  - feature: Weight Monitoring
+  - feature: Survey administration
+  - feature: SMS Temperature Receiver
+  - feature: SMS Conversations
 condition: Hypertension
 intervention: Wearables & remote monitoring
 outcome: Increased physical activity

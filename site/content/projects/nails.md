@@ -12,7 +12,7 @@ summary: >-
 features:
   - feature: Photo Collection
   - feature: CSV File upload
-  - feature: Surveys
+  - feature: Survey Administration
 spotlight: false
 condition: Psoriasis
 intervention: Patient Reported Outcoes

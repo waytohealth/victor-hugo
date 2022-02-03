@@ -14,7 +14,7 @@ authors:
 summary: >-
   This study will use a randomized, controlled superiority trial to evaluate a hospital-wide initiative to improve counseling for postpartum women who experienced hypertension during their pregnancy or in the immediate postpartum period.
 features:
-  - feature: Surveys
+  - feature: Survey Administration
   - feature: SMS Conversations
   - feature: Randomization
 spotlight: false

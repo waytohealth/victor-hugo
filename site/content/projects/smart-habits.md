@@ -29,5 +29,5 @@ features:
   - feature: Omron blood pressure cuff integration
   - feature: FitBit integration
   - feature: SMS blood pressure receiver
-  - feature: Bidirectional text messaging
+  - feature: SMS Conversations
 ---

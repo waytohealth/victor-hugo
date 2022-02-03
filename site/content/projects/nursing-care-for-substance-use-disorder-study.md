@@ -20,7 +20,7 @@ results:
   - result: 3. Evaluate a SUD stigma-assessment survey instrument tailored to
       hospital-based health care providers using psychometric analysis
 features:
-  - feature: CSV participant upload
+  - feature: CSV File upload
   - feature: Educational text messaging
   - feature: Reminder nudges
 ---

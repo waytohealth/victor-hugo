@@ -23,7 +23,7 @@ results:
 features:
   - feature: Bulk messaging
   - feature: IVR and text based communication
-  - feature: Bi-directional conversations
+  - feature: SMS Conversations
   - feature: Automated slot availability 
 spotlight: true
 dedicatedpage: true

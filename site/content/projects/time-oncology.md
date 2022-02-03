@@ -23,6 +23,7 @@ results:
   - result: 3. To assess patient and provider  satisfaction with the e-triage  approach
   - result: 4. To assess safety associated with the e-triage approach
 features:
-  - feature: EPIC flowsheet integration and inbasket alerts
-  - feature: Bidirectional texting
+  - feature: EPIC flowsheet integration
+  - feature: EPIC in-basket alerts
+  - feature: SMS Conversations
 ---

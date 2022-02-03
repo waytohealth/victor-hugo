@@ -23,7 +23,7 @@ results:
       pill bottle arm
 features:
   - feature: Device Integration
-  - feature: Bi-Directional Text Messaging
+  - feature: SMS Conversations
 spotlight: false
 pubs:
   - pubURL: 'https://link.springer.com/article/10.1007%2Fs11606-019-05241-x'

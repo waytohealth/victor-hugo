@@ -14,7 +14,7 @@ authors:
 summary: >-
   The intent is to pilot test texting ~150-200 Black patients discharged from the downtown EDs to ask about their experiences with race and equity via short surveys. This is a small, one time pilot to help inform future equity clinical work and research grants. 
 features:
-  - feature: Surveys
+  - feature: Survey Administration
   - feature: SMS Conversations
   - feature: Randomization
 spotlight: false
