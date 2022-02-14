@@ -17,11 +17,10 @@ summary: Oncology patients spend a large proportion of their time attending in
   infusion appointment, reducing their travel time and number of in person
   appointments.
 results:
-  - result: "1. To compare wait times associated with text-based e-triage versus
-      standard office visits prior to cancer treatment "
-  - result: "2. To assess quality of life associated with the e-triage approach "
-  - result: 3. To assess patient and provider  satisfaction with the e-triage  approach
-  - result: 4. To assess safety associated with the e-triage approach
+  - result: Potentally eliminating office visits for 47% of pts without toxicity
+  - result: Increased patient satisfaction
+  - result: Increased clinician satisfaction
+  - result: Increased health system capacity
 features:
   - feature: EPIC flowsheet integration
   - feature: EPIC in-basket alerts
