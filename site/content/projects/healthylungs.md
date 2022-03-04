@@ -21,7 +21,7 @@ condition: Smoking Cessation
 intervention: Incentives
 outcome: Increase smoking cessation rates
 dedicatedpage: false
-externalurl: https://pair.upenn.edu/projects
+externalurl: https://pair.upenn.edu/projects/comparing-smoking-cessation-interventions-among-underserved-patients-referred-for-lung-cancer-screening
 label: Research 
 image: /images/dailycheckin2.jpg
 ---
