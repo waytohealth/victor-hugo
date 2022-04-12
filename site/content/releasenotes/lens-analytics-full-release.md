@@ -23,6 +23,8 @@ You can now build custom reports and data visualizations in the Lens Analytics p
 
 {screen shot of query builder}
 
+![](/images/uploads/querybuilder_a.png "Lens Analytics Query Builder")
+
 ### Customize the W2H homepage
 
 The home page can be set up with standard or custom widgets powered by Lens. See [Customize the W2H homepage](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236874773/Customize+the+W2H+homepage) for instructions.
@@ -39,10 +41,10 @@ You can embed custom data visualizations and reports on in the Analytics section
 
 We've decoupled staff and participant accounts to meet the needs of modern programs. There are several impactful results of this restructuring:
 
-- Now only staff accounts require unique email address across the platform.
-- Participant accounts are only required to be unique within a program and not platform-wide, thus allowing participants to enroll in multiple studies or programs simultaneously.
-- Participant accounts can have less requirements if they do not need to log into the web platform. For clinical texting programs, this means name and cell phone are all that is needed for enrollment.
-- Participant profile fields such as external id and MRN can be unique per program to prevent duplicate accounts.
-- Programs can clearly define how participant accounts are created in advanced settings.
+* Now only staff accounts require unique email address across the platform.
+* Participant accounts are only required to be unique within a program and not platform-wide, thus allowing participants to enroll in multiple studies or programs simultaneously.
+* Participant accounts can have less requirements if they do not need to log into the web platform. For clinical texting programs, this means name and cell phone are all that is needed for enrollment.
+* Participant profile fields such as external id and MRN can be unique per program to prevent duplicate accounts.
+* Programs can clearly define how participant accounts are created in advanced settings.
 
 {image of advanced settings}
