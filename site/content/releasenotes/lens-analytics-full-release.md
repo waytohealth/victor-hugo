@@ -37,12 +37,12 @@ You can embed custom data visualizations and reports on in the Analytics section
 
 ## User account refactor
 
-We've decoupled staff and participant accounts to meet the needs of modern programs. What is the impact?
+We've decoupled staff and participant accounts to meet the needs of modern programs. There are several impactful results of this restructuring:
 
 - Now only staff accounts require unique email address across the platform.
-- Participant accounts are only required to be unique within a program and not platform wide, thus allowing participants to enroll in multiple studies or programs simultaneously.
+- Participant accounts are only required to be unique within a program and not platform-wide, thus allowing participants to enroll in multiple studies or programs simultaneously.
+- Participant accounts can have less requirements if they do not need to log into the web platform. For clinical texting programs, this means name and cell phone are all that is needed for enrollment.
+- Participant profile fields such as external id and MRN can be unique per program to prevent duplicate accounts.
+- Programs can clearly define how participant accounts are created in advanced settings.
 
-As a result, participant accounts can have less requirements
-
-
-The team performed a lot of work under the hood to streamline the way accounts work for both staff and participants to meet the needs of modern programs. Previously accounts for both staff and participants required a unique email address or username across the entire platform. This caused problems if someone had been enrolled in a program in the past and needs to use the same email address to enroll in a new program. Now only staff accounts require a unique email address across the platform. Participant accounts are only required to be unique within the program they are enrolled in, and if the program doesn’t leverage our participant portal to allow participants to log back in during or after enrollment, they don’t need to have an email address or username at all! Additionally more profile fields, such as external id and MRN, can be forced to be unique to prevent duplicate enrollment issues. Lastly, since participant accounts are now per-program rather than platform wide, we’ve added tools on the participant portal to help people find the right place to log in with ease in case they end up with the wrong link.
+{image of advanced settings}
