@@ -3,11 +3,11 @@ title: Lens Analytics full release
 date: 2022-04-12
 summary: >-
   Spring has sprung and we are pleased to announce the full release of our new
-  business intelligence tool, **Lens Analytics**. Lens Analytics is Way to
-  Health's product offering that provides deep visibility into program data. 
+  business intelligence tool, Lens Analytics. Lens Analytics is Way to Health's
+  product offering that provides deep visibility into program data. 
 
 
-  We also restructured our **user account framework** to allow maximum flexibility for modern programs.
+  We also restructured our user account framework to allow maximum flexibility for modern programs.
 ---
 ## Product updates from March 2022
 
