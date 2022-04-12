@@ -7,7 +7,7 @@ summary: >-
   Health's product offering that provides deep visibility into program data. 
 
 
-  Under the hood, we also restructured our **user account framework** to allow for maximum flexibility for modern programs.
+  We also restructured our **user account framework** to allow maximum flexibility for modern programs.
 ---
 ## Product updates from March 2022
 
@@ -20,8 +20,6 @@ Lens Analytics product offering consists of three main components:
 ### Lens Analytics custom reports and visualizations
 
 You can now build custom reports and data visualizations in the Lens Analytics portal. See [Creating and publishing questions](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2237333505/Creating+and+publishing+questions) for instructions.
-
-{screen shot of query builder}
 
 ![](/images/uploads/querybuilder_a.png "Lens Analytics Query Builder")
 
