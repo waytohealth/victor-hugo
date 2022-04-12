@@ -46,3 +46,6 @@ We've decoupled staff and participant accounts to meet the needs of modern progr
 * Programs can clearly define how participant accounts are created in advanced settings.
 
 ![](/images/uploads/advanced_usersettings.png "Advanced settings showing account creation pathways")
+
+## There's a lot more coming
+We will continue to enhance the platform as we learn more from our customers. Future releases slated include natural language understanding, improved enrollment and EHR integration and much more. Stay tuned!
