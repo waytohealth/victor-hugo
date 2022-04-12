@@ -1,6 +1,6 @@
 ---
 title: Lens Analytics full release
-date: 2022-04-11
+date: 2022-04-12
 summary: >-
   Spring has sprung and we are pleased to announce the full release of our new
   business intelligence tool, **Lens Analytics**. Lens Analytics is Way to
