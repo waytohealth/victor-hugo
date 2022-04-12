@@ -29,13 +29,13 @@ You can now build custom reports and data visualizations in the Lens Analytics p
 
 The home page can be set up with standard or custom widgets powered by Lens. See [Customize the W2H homepage](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236874773/Customize+the+W2H+homepage) for instructions.
 
-{screen shot of standard home page}
+![](/images/uploads/new_homepage.png "New W2H homepage with Lens widgets")
 
 ### Embed Lens dashboards in the W2H portal
 
 You can embed custom data visualizations and reports on in the Analytics section of W2H. See [Setting up embedded analytics](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236907551/Setting+up+embedded+analytics+in+W2H) for instructions.
 
-{screenshot}
+![](/images/uploads/embedded_analytics.png "Embedded Lens analytics dashboards in W2H portal")
 
 ## User account refactor
 
@@ -47,4 +47,4 @@ We've decoupled staff and participant accounts to meet the needs of modern progr
 * Participant profile fields such as external id and MRN can be unique per program to prevent duplicate accounts.
 * Programs can clearly define how participant accounts are created in advanced settings.
 
-{image of advanced settings}
+![](/images/uploads/advanced_usersettings.png "Advanced settings showing account creation pathways")
