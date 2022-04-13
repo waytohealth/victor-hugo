@@ -33,7 +33,7 @@ The home page can be set up with standard or custom widgets powered by Lens. See
 
 You can embed custom data visualizations and reports on in the Analytics section of W2H. See [Setting up embedded analytics](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236907551/Setting+up+embedded+analytics+in+W2H) for instructions.
 
-![](/images/uploads/embedded_analytics.png "Embedded Lens analytics dashboards in W2H portal")
+![](/images/uploads/embedded_analytics_a.png "Embedded Lens analytics dashboards in W2H portal")
 
 ## User account refactor
 
@@ -48,4 +48,5 @@ We've decoupled staff and participant accounts to meet the needs of modern progr
 ![](/images/uploads/advanced_usersettings.png "Advanced settings showing account creation pathways")
 
 ## There's a lot more coming
+
 We will continue to enhance the platform as we learn more from our customers. Future releases slated include natural language understanding, improved enrollment and EHR integration and much more. Stay tuned!
