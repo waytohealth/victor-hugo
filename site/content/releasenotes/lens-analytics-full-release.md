@@ -2,7 +2,7 @@
 title: Lens Analytics full release
 date: 2022-04-12
 summary: >-
-  Spring has sprung and we are pleased to announce the full release of our new
+  Spring has sprung! We are pleased to announce the full release of our new
   business intelligence tool, Lens Analytics. Lens Analytics is Way to Health's
   product offering that provides deep visibility into program data. 
 
@@ -13,7 +13,7 @@ summary: >-
 
 Lens Analytics product offering consists of three main components:
 
-1. [Lens Analytics portal](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236645393/Lens+Analytics+Portal): Way to Health's analytics tool where users can ask questions of their data and have them visualized in meaningful ways. 
+1. [Lens Analytics portal](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2236645393/Lens+Analytics+Portal): Way to Health's analytics tool where users can ask questions of their data and visualize them in meaningful ways. 
 2. Data stores: Our custom analytics databases replicating production data.
 3. ETLs: ('Extract, Transform, Load') These are [standard and custom data sets](https://waytohealth.atlassian.net/wiki/spaces/WTHST/pages/2237628417/Standard+Datasets) which can be displayed and queried on via the Lens Analytics portal.
 
