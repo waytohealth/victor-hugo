@@ -1,8 +1,8 @@
 ---
-name: Sadie Friday 
+name: Sadie Friday
 title: Applications Analyst
-twitter: 
-linkedin: 
+twitter:
+linkedin:
 1bgpic: /images/bg/photo12.jpg
 pic: /images/team/sadie.png
 text: >
