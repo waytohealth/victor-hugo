@@ -16,22 +16,22 @@ contactid: covidcontact
 #     - heading: COVID Watch
 #       category: clinical
 #       summary: Monitor at risk or COVID + patients across the health system.
-#     - heading: Specialty Watch 
+#     - heading: Specialty Watch
 #       category: clinical
-#       summary: Pregnancy, Oncology etc. Cancer COVID Watch - Monitor at risk or COVID + patients in the oncology department. Pregnancy Watch - Monitor at risk or COVID + patients in the OBGYN department. 
+#       summary: Pregnancy, Oncology etc. Cancer COVID Watch - Monitor at risk or COVID + patients in the oncology department. Pregnancy Watch - Monitor at risk or COVID + patients in the OBGYN department.
 #     - heading: Penn Partners in Care
 #       category: clinical
 #       summary: PPC Care Management Team uses W2H to send weekly check-in texts to monitor their vulnerable patients and evaluate their needs.
 #     - heading: Telemedicine prep
 #       category: clinical
-#       summary:  W2H walks patients through the BlueJeans setup on their phone before a telemedicine visit. 
+#       summary:  W2H walks patients through the BlueJeans setup on their phone before a telemedicine visit.
 #     - heading: COVID Pulse
 #       category: clinical
 #       summary: Monitor at risk or COVID + patients across the health system based on Pulse ox values
 #     - heading: Automated results reporting
 #       category: clinical
 #       summary: Facilis iusto itaque quidem. Necessitatibus dignissimos maxime dolore nam inventore in et quia. Atque qui molestias ducimus. Consequatur repellat quod nam optio magni nihil consectetur ea. Molestiae sed sunt consectetur repudiandae expedita fuga. Sed placeat qui et ut est rerum dolor sit. Aspernatur tenetur blanditiis omnis consequuntur vel quia dignissimos autem voluptatem.
-#     - heading: COVID Safe 
+#     - heading: COVID Safe
 #       category: research
 #       summary:
 
@@ -43,7 +43,7 @@ contactid: covidcontact
 #     - name: Surgery Solutions
 #       id: surgery
 #       description: Programs addressing issues specific pre and post procedure protocols
-#     - name: Quality, Safety and Patient Experience Solutions
+#     - name: Access and Patient Experience Solutions
 #       description: Leverage pre-built dashboards with key operational metrics
 #       id: qi
 #     - name: Real-time Dashboards
@@ -55,66 +55,65 @@ introsubtitle: Our experience in patient engagement, and behavioral science enab
 introtext:
 bgcol: bg-yellow-200
 
-
 domains:
   listing:
-      - title: Remote Patient Monitoring
-        image: images/remote_mon.svg
-        image_caption:
-        subtitle1: COVID Watch
-        description1: To manage a large and heterogenous population of patients with confirmed or presumed Covid-19, but well enough to remain at home, the University of Pennsylvania Health System (UPHS) developed a program to monitor for worsening dyspnea or other concerning symptoms. “COVID Watch” combined automated twice-daily text message check-ins with a dedicated team of telemedicine clinicians who could respond 24/7 to escalations in patient need.
-        subtitle2: COVID Pulse
-        description2: With the downward pressure on costs and the increasing importance of telemedicine and remote monitoring, proven solutions focused on specific domains will allow organizations to roll out programs systematically. 
-        subtitle3: Pregnancy Watch
-        description3: With the increased prevalence of consumer driven healthcare, ratings and reviews are increasingly important in health care decisions. Programs available are continuously monitored and consistently measure in the 80s and 90s for patient satisfaction while maintaining or improving quality of care. 
-        is_even: false
-        source: /healthsystem
-      - title: Operational Efficiency
-        image: images/researchers.jpg
-        image_caption: Drs. David Asch, Kevin Volpp, Mitesh Patel, Scott Halpern, Shivan Mehta and Kit Delgado, Penn Medicine
-        subtitle1: Automated Results Reporting
-        description1: Innovation and research require flexibility. Integration with the EHR opens up additional opportunities. Trials can be run locally or virtually. Way to Health has run virtual studies across 50 states. 
-        subtitle2: Telemedicine Prep Bot
-        description2: Innovation should be backed by evidence. Randomized Controlled Trials (RCTs) are the gold standard to generate evidence in healthcare. Our background and genesis can help guide the the setup of innovation projects to gather data to support (or reject) hypotheses. Automation built into the system can help doing this quickly and minimize personnel costs. 
-        subtitle3: Penn Partners in Care
-        description3: Research and innovation are usually constrained by cost and/or time. Our library of proven projects can serve as a base to help achieve quick successes. Open inboxes can help engage patients directly to gather data to understand patient needs. These can then be automated as needed. 
-        is_even: true
-        source: /researcher
+    - title: Remote Patient Monitoring
+      image: images/remote_mon.svg
+      image_caption:
+      subtitle1: COVID Watch
+      description1: To manage a large and heterogenous population of patients with confirmed or presumed Covid-19, but well enough to remain at home, the University of Pennsylvania Health System (UPHS) developed a program to monitor for worsening dyspnea or other concerning symptoms. “COVID Watch” combined automated twice-daily text message check-ins with a dedicated team of telemedicine clinicians who could respond 24/7 to escalations in patient need.
+      subtitle2: COVID Pulse
+      description2: With the downward pressure on costs and the increasing importance of telemedicine and remote monitoring, proven solutions focused on specific domains will allow organizations to roll out programs systematically.
+      subtitle3: Pregnancy Watch
+      description3: With the increased prevalence of consumer driven healthcare, ratings and reviews are increasingly important in health care decisions. Programs available are continuously monitored and consistently measure in the 80s and 90s for patient satisfaction while maintaining or improving quality of care.
+      is_even: false
+      source: /healthsystem
+    - title: Operational Efficiency
+      image: images/researchers.jpg
+      image_caption: Drs. David Asch, Kevin Volpp, Mitesh Patel, Scott Halpern, Shivan Mehta and Kit Delgado, Penn Medicine
+      subtitle1: Automated Results Reporting
+      description1: Innovation and research require flexibility. Integration with the EHR opens up additional opportunities. Trials can be run locally or virtually. Way to Health has run virtual studies across 50 states.
+      subtitle2: Telemedicine Prep Bot
+      description2: Innovation should be backed by evidence. Randomized Controlled Trials (RCTs) are the gold standard to generate evidence in healthcare. Our background and genesis can help guide the the setup of innovation projects to gather data to support (or reject) hypotheses. Automation built into the system can help doing this quickly and minimize personnel costs.
+      subtitle3: Penn Partners in Care
+      description3: Research and innovation are usually constrained by cost and/or time. Our library of proven projects can serve as a base to help achieve quick successes. Open inboxes can help engage patients directly to gather data to understand patient needs. These can then be automated as needed.
+      is_even: true
+      source: /researcher
     #   - title: For Health Plans
     #     image: images/temp.jpg
     #     image_caption: Drs. t quos vero eum nulla non voluptatem aut. Quidem voluptas vel atque.
     #     subtitle1: Increase adherence to wellness programs
-    #     description1: With roots in behavioral science, population health and wellness, our research has been geared towards improving adherence to programs that members might not always want to adhere to. Programs such as smoking cessation have been proven to be successful and are the standard at organizations such as GE, CVS and others. 
+    #     description1: With roots in behavioral science, population health and wellness, our research has been geared towards improving adherence to programs that members might not always want to adhere to. Programs such as smoking cessation have been proven to be successful and are the standard at organizations such as GE, CVS and others.
     #     subtitle2: Offer evidence backed protocols
-    #     description2: In an increasingly competitive market, offering unique and proven programs is important. Our programs are differentiated by evidence, practical experience and operational expertise. 
+    #     description2: In an increasingly competitive market, offering unique and proven programs is important. Our programs are differentiated by evidence, practical experience and operational expertise.
     #     subtitle3: Innovate at scale
-    #     description3: 1, 10, 10000 - the volume of members is irrelevant. What we enable is tailoring programs to latent member groups to maximize engagement and adherence. 
+    #     description3: 1, 10, 10000 - the volume of members is irrelevant. What we enable is tailoring programs to latent member groups to maximize engagement and adherence.
     #     is_even: false
     #     source: /healthplan
 
 keyfeatures:
   blurbs:
     - icon: comments
-      iconcolor: white 
-      bgcolor: 
+      iconcolor: white
+      bgcolor:
       header: Patient Communication
       text: >
-        Choose from a variety of communication mediums tailored to a patient's preference. Include peers or support partners. 
+        Choose from a variety of communication mediums tailored to a patient's preference. Include peers or support partners.
     - icon: heartbeat
-      iconcolor: white 
-      bgcolor: 
+      iconcolor: white
+      bgcolor:
       header: Device Integration
       text: >
         Capture data from remote monitoring devices simply and seamlessly, enabling scalable, integrated and personalized initiatives.
     - icon: code-fork
-      iconcolor: white 
-      bgcolor: 
+      iconcolor: white
+      bgcolor:
       header: Clinical Trials
       text: >
-         Use a purpose built solution to design and deploy behavioral change and interventional (automated hovering) research.
+        Use a purpose built solution to design and deploy behavioral change and interventional (automated hovering) research.
 modules_leadin:
   introtitle: Build your own intervention quickly
   introsubtitle: Way to Health capabilities are grouped into modules. Configure them to address your specific needs and combine them together to quickly build, test and deploy interventions. Choose your deployment model - pilot, standalone or scaled and EHR integrated.
-  introtext: 
+  introtext:
 modules_used: ["Conversations", "Remote Monitoring", "EHR integration"]
 ---

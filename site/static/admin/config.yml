@@ -12,21 +12,105 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the case study
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Study Type", name: "area", widget: "select", options: ["clinical", "inprogress", "research"], required: true}
-      - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
-      - {label: "Authors (minimum of two required)", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
-      - {label: "Summary", name: "summary", widget: "markdown"} # summary of the study
-      - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}], required: false}
-      - {label: "Features Used (minimum of two required)", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}]}
-      - {label: "Spotlight (only select TRUE otherwise ignore)", name: "spotlight", widget: "select", options: ["true", "false"], required: false}
-      - {label: "Will this have a full page with details? (only select TRUE otherwise ignore)", name: "dedicatedpage", widget: "select", options: ["true", "false"], required: false}      
-      - {label: "External URL (if program has its own separate site like HSM or CW)", name: "externalurl", widget: "string", required: false}
-      - {label: "Image for dedicated page (re-use ones already used as much as possible)", name: "image", widget: "image", required: false} # dedicated page image
-      - {label: "COVID Related?", name: "solution_area",widget: "select", options: ["COVID-19 Response Solutions"], required: false} # if covid related select
-      - {label: "Body", name: "body", widget: "markdown", required: false} #body of the case study
-      - {label: "Publication(s)", name: "pubs", widget: "list", fields: [{label: "Publication Title", name: "pubname", widget: "string"},{label: "Publication URL", name: "pubURL", widget: "string"}], required: false}
+      - { label: "Title", name: "title", widget: "string" } #title of the case study
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+        } # date of publication / creation
+      - {
+          label: "Study Type",
+          name: "area",
+          widget: "select",
+          options: ["clinical", "inprogress", "research"],
+          required: true,
+        }
+      - { label: "Clinical Domain", name: "subdomain", widget: "string" } # Specific clinical or ops area
+      - {
+          label: "Authors (minimum of two required)",
+          name: "authors",
+          widget: "list",
+          fields:
+            [
+              { label: "PI Name", name: "authorname", widget: "string" },
+              { label: "PI image", name: "authorimage", widget: "image" },
+              { label: "Role", name: "authorrole", widget: "string" },
+            ],
+        } #Author Name
+      - { label: "Summary", name: "summary", widget: "markdown" } # summary of the study
+      - {
+          label: "Outcomes (minimum of two required)",
+          name: "results",
+          widget: "list",
+          fields: [{ label: "Outcome", name: "result", widget: "string" }],
+          required: false,
+        }
+      - {
+          label: "Features Used (minimum of two required)",
+          name: "features",
+          widget: "list",
+          fields:
+            [
+              {
+                label: "Feature",
+                name: "feature",
+                widget: "select",
+                options:
+                  [
+                    "Two-way texting,Interactive Voice Response,Email,Program specific rules,Survey administration,EHR integration ,Photo messaging,Multiple languages,Remote patient monitoring,Automated scheduling,Device integration,Patient-reported outcomes capture,Gamification,Incentives,Custom enrollment ,eConsent,Arms and randomization",
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Spotlight (only select TRUE otherwise ignore)",
+          name: "spotlight",
+          widget: "select",
+          options: ["true", "false"],
+          required: false,
+        }
+      - {
+          label: "Will this have a full page with details? (only select TRUE otherwise ignore)",
+          name: "dedicatedpage",
+          widget: "select",
+          options: ["true", "false"],
+          required: false,
+        }
+      - {
+          label: "External URL (if program has its own separate site like HSM or CW)",
+          name: "externalurl",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Image for dedicated page (re-use ones already used as much as possible)",
+          name: "image",
+          widget: "image",
+          required: false,
+        } # dedicated page image
+      - {
+          label: "Domain",
+          name: "solution_area",
+          widget: "select",
+          options:
+            [
+              "COVID-19 Response Solutions, Surgery Solutions, Womens Health, Access and Patient Experience Solutions",
+            ],
+          required: false,
+        } # select
+      - { label: "Body", name: "body", widget: "markdown", required: false } #body of the case study
+      - {
+          label: "Publication(s)",
+          name: "pubs",
+          widget: "list",
+          fields:
+            [
+              { label: "Publication Title", name: "pubname", widget: "string" },
+              { label: "Publication URL", name: "pubURL", widget: "string" },
+            ],
+          required: false,
+        }
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Company blog" # Used in the UI
@@ -34,45 +118,129 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string", required: true} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "markdown", required: true} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image", required: true} # background image
-      - {label: "Author Name", name: "authorname", widget: "string", required: true} #Author Name
-      - {label: "Author image", name: "authorimage", widget: "image"} # background image
-      - {label: "Body", name: "body", widget: "markdown", required: true} #body of the case study
-      - {label: "Label", name: "label", widget: "string", required: true} #Label shown next to the post
+      - { label: "Title", name: "title", widget: "string", required: true } #title of the blog post
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          required: true,
+        } # date of publication / creation
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: true,
+        } # summary of the post
+      - {
+          label: "Splash image",
+          name: "image",
+          widget: "image",
+          required: true,
+        } # background image
+      - {
+          label: "Author Name",
+          name: "authorname",
+          widget: "string",
+          required: true,
+        } #Author Name
+      - { label: "Author image", name: "authorimage", widget: "image" } # background image
+      - { label: "Body", name: "body", widget: "markdown", required: true } #body of the case study
+      - { label: "Label", name: "label", widget: "string", required: true } #Label shown next to the post
   - name: "press" # Used in routes, e.g., /admin/collections/blog
     label: "Press" # Used in the UI
     folder: "site/content/press" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string", required: true} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "markdown", required: true} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image", required: true} # background image
-      - {label: "Source", name: "externallink", widget: "string", required: true} #url of press
+      - { label: "Title", name: "title", widget: "string", required: true } #title of the blog post
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          required: true,
+        } # date of publication / creation
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: true,
+        } # summary of the post
+      - {
+          label: "Splash image",
+          name: "image",
+          widget: "image",
+          required: true,
+        } # background image
+      - {
+          label: "Source",
+          name: "externallink",
+          widget: "string",
+          required: true,
+        } #url of press
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI
     folder: "site/content/publications" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Study Name", name: "articlename2", widget: "string", required: true} #Study title
-      - {label: "Article Name", name: "title", widget: "string", required: true} #title of the  post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "markdown", required: true} # summary of the post
-      - {label: "Authors", name: "authors", widget: "string", required: true} # publication authors
-      - {label: "Source", name: "externallink", widget: "string", required: true} #publication URL
-      - {label: "Journal Abbr", name: "journal", widget: "string", required: true} #Abbreviated Journal name in citation
+      - {
+          label: "Study Name",
+          name: "articlename2",
+          widget: "string",
+          required: true,
+        } #Study title
+      - {
+          label: "Article Name",
+          name: "title",
+          widget: "string",
+          required: true,
+        } #title of the  post
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          required: true,
+        } # date of publication / creation
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: true,
+        } # summary of the post
+      - { label: "Authors", name: "authors", widget: "string", required: true } # publication authors
+      - {
+          label: "Source",
+          name: "externallink",
+          widget: "string",
+          required: true,
+        } #publication URL
+      - {
+          label: "Journal Abbr",
+          name: "journal",
+          widget: "string",
+          required: true,
+        } #Abbreviated Journal name in citation
   - name: "releasenotes" # Used in routes, e.g., /admin/collections/blog
     label: "Release Notes" # Used in the UI
     folder: "site/content/releasenotes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string", required: true} #title of the release note
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: true} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "markdown", required: true} # summary of the release
-      - {label: "Content", name: "body", widget: "markdown", required: true} #body of the release note
+      - { label: "Title", name: "title", widget: "string", required: true } #title of the release note
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          required: true,
+        } # date of publication / creation
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: true,
+        } # summary of the release
+      - { label: "Content", name: "body", widget: "markdown", required: true } #body of the release note
