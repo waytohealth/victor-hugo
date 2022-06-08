@@ -2,7 +2,7 @@
 title: Evidence based programs for members
 subtitle: Leverage evidence based programs to manage conditions and engage members in their health care.
 image: /images/healthplan.svg
-image_caption:
+image_caption: 
 blurb_text: Leverage award winning programs to quickly drive outcomes
 blurb_summary1: Why start from scratch when you can leverage pre-built, tested and evidence based programs?
 blurb_summary2: With rapid implementation times and multiple available customization options (messaging content, frequency, languages), you will be able to reap benefits quickly while enhancing your relationship with your patients.
@@ -24,7 +24,7 @@ solutions:
     - name: Surgery Solutions
       id: surgery
       description: Programs addressing issues specific pre and post procedure protocols
-    - name: Access and Patient Experience Solutions
+    - name: Quality, Safety and Patient Experience Solutions
       description: Leverage pre-built dashboards with key operational metrics
       id: qi
     - name: Real-time Dashboards
@@ -33,7 +33,7 @@ solutions:
 modules_leadin:
   introtitle: Build your own intervention quickly
   introsubtitle: Way to Health capabilities are grouped into modules. Configure them to address your specific needs and combine them together to quickly build, test and deploy interventions. Choose your deployment model - pilot, standalone or scaled and EHR integrated.
-  introtext:
+  introtext: 
 modules_used: ["Conversations", "Remote Monitoring", "EHR integration"]
 pageurl: healthplan
 contactid: plancontact
