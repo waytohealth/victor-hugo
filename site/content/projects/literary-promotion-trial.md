@@ -11,11 +11,11 @@ authors:
     authorrole: Primary Investigator
     authorimage: https://www.chop.edu/doctors/guevara-james
 summary: >-
-  \
+  The ability to read, write, speak, think and respond critically can open the
+  door to many possibilities across the lifespan both in school and beyond,
+  affecting how we interact with our communities, engage as citizens, consume
+  health care, express ourselves and more. 
 
-  The ability to read, write, speak, think and respond critically can open the door to many possibilities across the lifespan both in school and beyond, affecting how we interact with our communities, engage as citizens, consume health care, express ourselves and more. \
-
-  \
 
   Unfortunately, poor vulnerable children experience disparities in these critical areas of development. Parent-child shared reading can help ameliorate these disparities, yet low-income parents do not consistently engage in this activity. Behavioral economics approaches utilizing automated hovering (AH) have the potential to increase parent-child shared reading through text messages and financial inducements.
 
