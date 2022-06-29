@@ -25,13 +25,7 @@ summary: >-
 
   Formerly referred to as Parent Child Reading Pilot. This study at CHOP aims to develop materials to frame an evidence base for to promote parents reading with children. It tests lottery or regret language to explore if that promotes more reading with children.
 results:
-  - result: "P1. Number of participants who respond to the intervention delivery "
-  - result: P2. Number of participants who respond to the intervention delivery
-  - result: S1. Change in Home Reading Environment
-  - result: S2. Change in Parenting Stress
-  - result: S3. Weekly Parent-Child Shared Reading Frequency
-  - result: "S4. Child Language Development "
-  - result: "S5. Child Socio-Emotional Development "
+  - result: "Ongoing Research & Analysis "
 features:
   - feature: Lotteries, SMS Conversations, Decision Trees
 image: /images/uploads/reading.jpeg
