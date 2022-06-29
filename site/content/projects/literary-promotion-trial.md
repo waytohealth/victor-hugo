@@ -2,7 +2,7 @@
 title: Literary Promotion Trial
 date: 2022-06-28
 area: research
-subdomain: pediatrics
+subdomain: Pediatrics
 authors:
   - authorname: Michael Leuthke
     authorrole: Project Manager
