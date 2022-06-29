@@ -12,7 +12,7 @@ authors:
     authorimage: https://www.chop.edu/doctors/guevara-james
 summary: >-
   The ability to read, write, speak, think and respond critically can open the
-  door to many possibilities across the lifespan both in school and beyond,
+  door to many possibilities across one's lifespan both in school and beyond,
   affecting how we interact with our communities, engage as citizens, consume
   health care, express ourselves and more. 
 
