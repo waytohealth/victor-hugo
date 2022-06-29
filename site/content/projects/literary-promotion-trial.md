@@ -27,6 +27,8 @@ summary: >-
 results:
   - result: "Ongoing Research & Analysis "
 features:
-  - feature: Lotteries, SMS Conversations, Decision Trees
+  - feature: Lotteries
+  - feature: SMS Conversations
+  - feature: Decision Trees
 image: /images/uploads/reading.jpeg
 ---
