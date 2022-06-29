@@ -17,13 +17,10 @@ summary: >-
   health care, express ourselves and more. 
 
 
-  Unfortunately, poor vulnerable children experience disparities in these critical areas of development. Parent-child shared reading can help ameliorate these disparities, yet low-income parents do not consistently engage in this activity. Behavioral economics approaches utilizing automated hovering (AH) have the potential to increase parent-child shared reading through text messages and financial inducements.
+  Often, children of low-income parents experience disparities in these critical areas of development. Parent-child shared reading can help ameliorate these disparities, yet low-income parents do not consistently engage in this activity. Behavioral economics approaches utilizing automated hovering (AH) have the potential to increase parent-child shared reading through text messages and financial inducements.
 
 
-  This study design is a prospective, randomized comparative group trial to test the effects of AH approaches to increase parent-child shared reading. 
-
-
-  Formerly referred to as Parent Child Reading Pilot. This study at CHOP aims to develop materials to frame an evidence base for to promote parents reading with children. It tests lottery or regret language to explore if that promotes more reading with children.
+  Formerly referred to as Parent Child Reading Pilot. This study at CHOP aims to develop materials to frame an evidence base to promote parents reading with children. It tests lottery or regret language to explore if that promotes more reading with children.
 results:
   - result: "Ongoing Research & Analysis "
 features:
