@@ -1,8 +1,8 @@
 ---
 name: Michael Josephs
 title: Application Specialist
-twitter: 
-linkedin: 
+twitter:
+linkedin:
 1bgpic: /images/bg/photo12.jpg
 pic: /images/team/michaelj.jpg
 text: >
