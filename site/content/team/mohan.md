@@ -1,6 +1,6 @@
 ---
 name: Mohan Balachandran
-title: Chief Operating Office, Corporate Director
+title: Chief Operating Officer, Corporate Director
 twitter: mohan2020
 linkedin: mohanbalachandran
 1bgpic: /images/bg/photo1.jpg

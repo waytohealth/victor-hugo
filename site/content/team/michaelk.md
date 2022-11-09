@@ -1,6 +1,6 @@
 ---
 name: Michael Kopinsky
-title: Engineering Lead
+title: Director of Product Development
 group: Leadership
 twitter: mkopinsky
 linkedin: mkopinsky
