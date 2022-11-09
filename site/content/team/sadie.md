@@ -1,6 +1,6 @@
 ---
 name: Sadie Friday
-title: Applications Analyst
+title: Implementation Lead
 twitter:
 linkedin:
 1bgpic: /images/bg/photo12.jpg
