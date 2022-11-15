@@ -35,7 +35,7 @@ modules:
         - subtitle: Flexible
           description: We tend to work pretty standard business hours, but are flexible because life is more than work. Work your schedule, get things done, and show up on time to meetings. Definitely no timesheets or billable hours, or needing to request PTO to leave early for your kid's little league game. (We might ask you to livestream that game just so some of us can reminisce and offer some backseat coaching.)
         - subtitle: Remote / On-site
-          description: Since March 2020 we've been working entirely remotely. We've become very comfortable on Teams / Zoom - that's where we do most of our meetings, pairing sessions, 1-on-1s, and so on. Before the pandemic we worked from home one day a week, and once the office reopens we predict we'll be in our office on the Penn campus 1-3 days a week.
+          description: Pre-pandemic we worked from home one day a week, and since March 2020 we've been working almost entirely remotely. Slack, Zoom, Mural, Confluence, and JIRA are our true offices, but some of us go to the physical office anywhere between monthly and twice a week.
       is_even: false
     - module_name: Technology and Requirements
       image: images/peng/rct.jpg
